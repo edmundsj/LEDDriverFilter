@@ -1,0 +1,8 @@
+﻿Reference,Value,Kind,Quantity,Manufacturer #
+"C1, C2",56m,Capacitor,2,SLPX563M016H4P3
+J1,None,Screw Terminal,1,"TB007-508-04BE	"
+"L1, L2",3.3m,Inductor,2,AIRD-03-332K
+"R1, R2",10m,Resistor,1,None
+TP1-5,None,Test Point,1,None
+U1,None,M8 Female Connector,1,"T4043014041-000	"
+None,None,M8 Male Cable,1,T4061120004-001
