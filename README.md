@@ -10,6 +10,7 @@ Filtering can provide shot-noise-limited performance from noisy drive electronic
 - Optional 0805 sense resistors at input and output
 - Input screw terminal for connectorization to male M8-4 connector
 - Output M8-4 female connector for connectorization to thorlabs LEDs
+- Kicad schematic/PCB files, fabrication gerbers
 
 ![PCB 3D view](pcb_3D_rendering.png)
 Fig 0. 3D kicad rendering of PCB
@@ -22,8 +23,9 @@ Simulations were done in LTSpice using manufacturer specified parasitic values f
 
 ![100kHz simulation](ltspice_simulation_100kHz.png)
 Fig 2. Filter response from 0.1Hz - 100kHz
+
 ![6Hz simulation zoomed](ltspice_simulation_6Hz.png)
-Fig 3. Filter response from 0.1Hz - 6Hz (first 20dB of rolloff)
+Fig 3. Filter response from 0.1Hz - 6Hz (first 20dB of rolloff). Note the -3dB frequency is approximately 1Hz.
 
 ## Test Data
 Initial tests indicate the Thorlabs LEDD1B has current noise >20dB in excess of the shot noise limit when driving LEDs at 1A.
